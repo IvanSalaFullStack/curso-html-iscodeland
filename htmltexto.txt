@@ -1,73 +1,273 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+CURSO HTML By IsCodeLand
+<!-- ....................INICIA.................... -->
+
+Sintaxis de HTML
+crear carpeta
+crear archivo llamado index.html en la carpeta destinada al proyecto.
+
+<etiqueta> Contenido de la Etiqueta</etiqueta>
+
+
+
+<!-- .................................................... -->
+
+Estructura de un documento HTML
+
+<!DOCTYPE html>             - Establece el tipo de estandar del coumento (HTML)
+<html lang="en">            - Inicio del documento HTML
+<head>                      - Datos que le pasamos al navegador con irformacion de nuestra pagina
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso HTML By IsCodeLand</title>
+    <title>Document</title>
 </head>
-<body>
-<!-- Inicia contenido del curso de HTML5 -->
-<!-- titulo principal -->
-    <h1>Curso de HTML5 - IsCodeLand</h1>
-
-    <!-- Seccion de Sintaxis de HTML -->
-    <section>
-        <article>
-            <h2>Sintaxis de HTML</h2>
-            <p>
-                <pre>
-                <code>
-                    &lt;etiquetaDeApertura&gt;contenido de etiqueta&lt;/etiquetDeCierre&gt;
-                </code>
-                </pre>
-            </p>
-        </article>
-    </section>
-
-
-    <!-- Seccion de Estructura de un Documento HTML -->
-    <section>
-        <article>
-            <h2>Estructura de un documento HTML</h2>
-            <p>
-                <pre>
-                <code>
-                    &lt;!DOCTYPE html&gt;
-                    &lt;html lang="en"&gt;
-                    &lt;head&gt;
-                    &lt;meta charset="UTF-8"&gt;
-                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-                    &lt;title&gt;Document&lt;/title&gt;
-                    &lt;/head&gt;
-                    &lt;body&gt;
-                                
-                    &lt;/body&gt;
-                    &lt;/html&gt;
-
-                        </code>
-                </pre>
-            </p>
-        </article>
-    </section>
-
-
-    <!-- Sintaxis de un Comentario -->
-        <!-- Comentario :) -->
-        <p>Para realizar un comentario hay que escribir: <br>
-            <pre>
-                <code>
-                    &lt;!--Contenido del comentario--&gt;
-                </code>
-            </pre>
-        </p>
-
-
-        
+<body>                      - Representa todo el contenido de nuestra pagina web
+    
 </body>
 </html>
 
-<!-- cambio comentario numero 1 -->
-<!-- este es el segundo comentario de prueba en git -->
-<!-- ya creamos un repositorio pero directo de hithub  -->
-<!-- otro cambio -->
+
+
+<!-- .................................................... -->
+
+Sintaxis de un Comentario
+
+<!-- Contenido del comentario -->
+
+<!-- .................................................... -->
+
+Titulos y Parrafos
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML IsCodeLand</title>
+</head>
+<body>
+    <h1>Curso HTML By IsCodeLand</h1> - Titulo Principal
+    <h2>Subtitulo 2</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque sed commodi culpa ex voluptatem vel, vero porro eveniet laborum numquam.</p>
+
+    <h3>Subtitulo 3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque explicabo quisquam dicta molestias porro ducimus praesentium earum mollitia aspernatur quas!</p>
+
+    <h4>Subtitulo 4</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque explicabo quisquam dicta molestias porro ducimus praesentium earum mollitia aspernatur quas!</p>
+
+    <h5>Subtitulo 5</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque explicabo quisquam dicta molestias porro ducimus praesentium earum mollitia aspernatur quas!</p>
+
+    <h6>Subtitulo 6</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque explicabo quisquam dicta molestias porro ducimus praesentium earum mollitia aspernatur quas!</p>
+
+</body>
+
+
+<!-- .................................................... -->
+
+Seccion de Contenido Etiquetas de Contenido
+
+<!-- <header></header> <main></main> <footer></footer> -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML IsCodeLand</title>
+</head>
+<body>
+    <!-- <header></header> <main></main> <footer></footer> -->
+    <header>        - Menu de Navegacion, Logo, Redes sociales...etc
+        Inicio
+        Novelas
+        Peliculas
+        Contacto
+    </header>    
+
+    <main>          - Contenido pricipal de la pagina
+        <h1>Curso HTML By IsCodeLand</h1> Titulo Principal
+        <h2>Subtitulo 2</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque sed commodi culpa ex voluptatem vel, vero porro eveniet laborum numquam.</p>
+    
+        <h3>Subtitulo 3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque explicabo quisquam dicta molestias porro ducimus praesentium earum mollitia aspernatur quas!</p>
+    
+        <h4>Subtitulo 4</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque explicabo quisquam dicta molestias porro ducimus praesentium earum mollitia aspernatur quas!</p>
+    
+        <h5>Subtitulo 5</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque explicabo quisquam dicta molestias porro ducimus praesentium earum mollitia aspernatur quas!</p>
+    
+        <h6>Subtitulo 6</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque explicabo quisquam dicta molestias porro ducimus praesentium earum mollitia aspernatur quas!</p>
+    
+    </main>
+    
+    <footer>           - 
+        Curso HTML 2023 IsCodeLand   
+    </footer>
+</body>
+</html>
+
+
+<!-- .................................................... -->
+
+Etiquetas <section></section> <article></article>
+
+section: Es un contenedor generico que agrupa contenido que esta 
+relacionado. Cuando creamos bloques cuyo contenido es parte de un
+bloque total usaremos section.
+
+article: Es un contenedor que representa contenido independiente, 
+es decir, podemos leer ese fragmento en cualquier otro sitio y 
+tendria sentido por si mismo
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML IsCodeLand</title>
+</head>
+<body>
+    <header>
+        <h1>El Chismoso</h1>
+    </header>
+    <main>
+            <section>
+                <h2>Noticias del dia</h2>
+                <article>               - Se le permite a la etiquueta article que pueda tener header y footer
+                    <header><h3>Noticia 1</h3></header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum fugit repellendus inventore? Impedit minus quos, aut temporibus repudiandae cumque aliquid?</p>
+                    <footer>Fecha</footer>
+
+                    <header><h3>Noticia 2</h3></header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum fugit repellendus inventore? Impedit minus quos, aut temporibus repudiandae cumque aliquid?</p>
+                    <footer>Fecha</footer>
+                    
+                    <header><h3>Noticia 2</h3></header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum fugit repellendus inventore? Impedit minus quos, aut temporibus repudiandae cumque aliquid?</p>
+                    <footer>Fecha</footer>
+        
+                </article>
+
+            </section>
+
+            <article>
+                <h2>Chismes del dia</h2>
+                <section>
+                   <header><h3>Chrome</h3></header> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolore tenetur provident aut illo nam soluta veniam cum reprehenderit eveniet?</p>
+                    <footer>Creado por ISCodeLand</footer>
+                </section>
+
+                <section>
+                    <header><h3>Firefox</h3></header> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolore tenetur provident aut illo nam soluta veniam cum reprehenderit eveniet?</p>
+                    <footer>Creado por ISCodeLand</footer>
+                </section>
+
+            </article>
+
+    </main>
+    <footer>El Chismoso 2023</footer>
+
+   
+</body>
+</html>
+
+
+<!-- .................................................... -->
+
+Etiqueta <aside></aside>
+
+Se utiliza para representar contenido indirectamente relacionado 
+pero que no forma parte del contenido principal
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML IsCodeLand</title>
+</head>
+<body>
+<header>
+    <h1>Cursos gratuitos</h1>
+    <aside>VIsita mi canal de YouTube</aside>
+    <main>
+
+    </main>
+    <footer>
+        
+    </footer>
+</header>
+   
+</body>
+</html>
+
+<!-- .................................................... -->
+<!-- .................................................... -->
+<!-- .................................................... -->
+
+Introduccion a Atributos
+
+Son valores adicionales que configuran los elementos y/o ajustan 
+su comportamiento.
+
+En terminos generales hay dos tipos de Atributos
+- Comunes:
+Su sintaxis es -> atributo="valor"
+
+- Booleanos:
+Su sintaxis es -> atributo
+
+<!DOCTYPE html>         - Este es un atributo booleano
+<html lang="es">        - Este es un atributo común
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML IsCodeLand</title>
+</head>
+<body>
+
+<!-- .................................................... -->
+
+Introduccion a Enlaces
+
+Enlaces: Conocidos tambien por links popularmente. 
+Su objetivo es conectar una pagina web con otra pagina web,
+con un recurso tanto interno como externo, o con otro sitio web.
+
+Tienen el atributo obligatorio href, donde le especificamos la ruta
+del recurso o sitio que queremos obtener.
+
+Tambien tienen el atributo target, que configura como queremos visualizar 
+el recurso o sitio que solicitamos.
+.....
+
+Rutas absolutas: Tienen un protocolo, http o https y son unicas en la red 
+se suelen utilizar para rutas externas
+
+Rutas relativas: Pueden ser relativas al punto donde nos encontremos o relativas 
+a la raiz del proyecto
+No usan protocolo
+si el recurso se encuentra al mismo nivel (en la misma carpeta) pondremos 
+unicamente el nombre del archivo
+
+si necesitamos salir de la carpeta actual usaremos ../ y se pone uno por 
+cada nivel (arpeta) de la que queramos salir.
+
+<body>
+<header>
+    <h1>Cursos gratuitos</h1>
+    <a href="https://youtube.com/">Ir a Youtube</a> - Enlace ruta absoluta
+    <a href="/contacto.html">Ir a Contacto</a>  - Enlace ruta relativa 
+    
+   
+</body>
+</html>
+<!-- .................................................... -->
+<!-- .................................................... -->
